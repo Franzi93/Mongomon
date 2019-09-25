@@ -8,21 +8,22 @@ public class mongoDBtest : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        var values = new Dictionary<string, string>
-{
-{ "thing1", "hello" },
-{ "thing2", "world" }
-};
+        GetResponse();
+    }
 
+    static async void GetResponse()
+    {
+        var values = new Dictionary<string, string>
+        {
+        { "thing1", "hello" },
+        { "thing2", "world" }
+        };
+        MongomonLib.User u = new MongomonLib.User();
+        u.name = "gsdfsd";
         var content = new FormUrlEncodedContent(values);
         HttpClient client = new HttpClient();
-        var response = client.PostAsync("http://localhost:8080/game/", content);
-
+        var x = await client.PostAsync("http://localhost:8080/game/", content);
+        Debug.Log(x.ToString());
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }

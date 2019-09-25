@@ -60,7 +60,8 @@ namespace MongoServer
         {
             Console.WriteLine("A simple response.");
             GetName().Wait();
-
+            MongomonLib.User u = new MongomonLib.User();
+            u.name = "blaa";
             //TODO following will be json
             return string.Format("<HTML><BODY>My web page.<br>{0}</BODY></HTML>", DateTime.Now);
         }
