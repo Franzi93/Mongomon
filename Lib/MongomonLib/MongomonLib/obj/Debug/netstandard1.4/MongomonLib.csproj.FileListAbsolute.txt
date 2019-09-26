@@ -1,0 +1,8 @@
+C:\Users\User\Projekte\mongomon\Lib\MongomonLib\MongomonLib\bin\Debug\netstandard1.4\MongomonLib.deps.json
+C:\Users\User\Projekte\mongomon\Lib\MongomonLib\MongomonLib\bin\Debug\netstandard1.4\MongomonLib.dll
+C:\Users\User\Projekte\mongomon\Lib\MongomonLib\MongomonLib\bin\Debug\netstandard1.4\MongomonLib.pdb
+C:\Users\User\Projekte\mongomon\Lib\MongomonLib\MongomonLib\obj\Debug\netstandard1.4\MongomonLib.csproj.CoreCompileInputs.cache
+C:\Users\User\Projekte\mongomon\Lib\MongomonLib\MongomonLib\obj\Debug\netstandard1.4\MongomonLib.AssemblyInfo.cs
+C:\Users\User\Projekte\mongomon\Lib\MongomonLib\MongomonLib\obj\Debug\netstandard1.4\MongomonLib.dll
+C:\Users\User\Projekte\mongomon\Lib\MongomonLib\MongomonLib\obj\Debug\netstandard1.4\MongomonLib.pdb
+C:\Users\User\Projekte\mongomon\Lib\MongomonLib\MongomonLib\obj\Debug\netstandard1.4\MongomonLib.csprojAssemblyReference.cache
